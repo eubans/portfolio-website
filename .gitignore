@@ -29,4 +29,7 @@ coverage
 *.sln
 *.sw?
 
+# Restricted data
 .env
+src/stores/data/*
+src/assets/images/works/*
