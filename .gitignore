@@ -20,8 +20,6 @@ coverage
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-!.vscode/settings.json
-!.vscode/*.code-snippets
 .idea
 *.suo
 *.ntvs*
@@ -32,4 +30,5 @@ coverage
 # Restricted data
 .env
 src/stores/data/*
+!src/stores/data/templates
 src/assets/images/works/*
