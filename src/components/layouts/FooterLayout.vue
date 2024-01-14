@@ -33,6 +33,7 @@ const socials: SocialEntity[] = SocialsData
               <a
                 class="flex text-lg opacity-75 hover:text-tertiary hover:opacity-100"
                 :href="social.link"
+                target="_blank"
               >
                 <Component :is="social.icon" class="mr-2" width="24" height="24" />{{ social.name }}
               </a>

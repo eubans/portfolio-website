@@ -9,7 +9,7 @@ import IconHammerScrew from '@/components/icons/IconHammerScrew.vue'
 import IconOpenNew from '@/components/icons/IconOpenNew.vue'
 import IconGithub from '@/components/icons/IconGithub.vue'
 import IconSearchOff from '@/components/icons/IconSearchOff.vue'
-import PlaceholderImage from '@/assets/images/works/placeholder.png'
+import PlaceholderImage from '@/assets/images/work-placeholder.png'
 
 import type { WorkEntity } from '@/entities'
 import { WorksData } from '@/stores/data'

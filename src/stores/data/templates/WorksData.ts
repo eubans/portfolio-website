@@ -5,7 +5,7 @@
 
 import type { WorkEntity } from '@/entities'
 
-import PlaceholderImage from '@/assets/images/works/placeholder.png'
+import PlaceholderImage from '@/assets/images/work-placeholder.png'
 
 export const WorksData: WorkEntity[] = [
   {
