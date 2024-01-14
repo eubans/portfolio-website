@@ -241,20 +241,20 @@ const handleResetFilter = () => {
               </div>
 
               <div class="absolute top-0 right-0 p-1 flex gap-1">
-                <a v-if="work.github" :href="work.github" target="_blank">
+                <RouterLink v-if="work.github" :to="work.github" target="_blank">
                   <IconGithub
                     class="bg-secondary cursor-pointer rounded-full p-1 opacity-70 group-hover:opacity-100 group-hover:bg-tertiary group-hover:text-primary group-hover:font-semibold"
                     width="26"
                     height="26"
                   />
-                </a>
-                <a v-if="work.link" :href="work.link" target="_blank">
+                </RouterLink>
+                <RouterLink v-if="work.link" :to="work.link" target="_blank">
                   <IconOpenNew
                     class="bg-secondary cursor-pointer rounded-full p-1 opacity-70 group-hover:opacity-100 group-hover:bg-tertiary group-hover:text-primary group-hover:font-semibold"
                     width="26"
                     height="26"
                   />
-                </a>
+                </RouterLink>
               </div>
             </div>
 

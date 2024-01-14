@@ -39,7 +39,8 @@ export const SocialsData: SocialEntity[] = [
   {
     id: 5,
     name: 'View Resume',
-    link: '#',
+    // NOTE: Replace the file with your resume and make sure to add the file name in .gitignore
+    link: '/sample-resume.pdf',
     icon: IconIdentification
   }
 ]
