@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "about": "について",
+    "contact": "お問い合わせ",
+    "experience": "経験",
+    "testimonials": "お客様の声",
+    "work": "実績"
+  },
+  "footer": {
+    "text": "{expertise} が必要ですか？一緒に素晴らしいものを築きましょう！"
+  },
+  "view": {
+    "contact": {
+      "title": "何か築こう",
+      "form": {
+        "firstName": "名",
+        "lastName": "姓",
+        "emailAddress": "メールアドレス",
+        "phoneNumber": "電話番号",
+        "subject": "件名",
+        "message": "メッセージ",
+        "sendIt": "送信"
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "私たちについて"
+    },
+    "experience": {
+      "title": "経験",
+      "programmingLanguages": "プログラミング言語",
+      "librariesFrameworks": "ライブラリとフレームワーク",
+      "toolsPlatforms": "ツールとプラットフォーム"
+    },
+    "hero": {
+      "introduction": "こんにちは、私の名前は"
+    },
+    "testimonial": {
+      "title": "人々の声"
+    },
+    "work": {
+      "title": "実績",
+      "year": "年",
+      "technology": "技術",
+      "company": "企業",
+      "builtFromScratch": "ゼロから構築",
+      "freelance": "フリーランス"
+    }
+  },
+  "common": {
+    "all": "すべて",
+    "and": "および",
+    "builtWith": "で構築",
+    "copyright": "著作権",
+    "deployedWith": "で展開",
+    "filterBy": "フィルター",
+    "getInTouch": "お問い合わせ",
+    "in": "で",
+    "noResultsFound": "結果が見つかりませんでした",
+    "resetFilter": "フィルターをリセット",
+    "showMoreOrLess": "{value}を表示または非表示",
+    "tailwindCss": "Tailwind CSS",
+    "vuejs": "Vue.js"
+  },
+  "alt": {
+    "hero": "ヒーローの背景画像",
+    "technologyLogo": "テクノロジーロゴ"
+  }
+}

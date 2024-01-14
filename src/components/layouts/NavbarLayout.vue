@@ -61,20 +61,28 @@ window.addEventListener('click', handleCloseMenu)
         :class="navbarItemClass"
       >
         <li>
-          <a class="py-3 sm:p-4 block hover:text-tertiary" href="/#about">About</a>
+          <a class="py-3 sm:p-4 block hover:text-tertiary" href="/#about">
+            {{ $t('navigation.about') }}
+          </a>
         </li>
         <li>
-          <a class="py-3 sm:p-4 block hover:text-tertiary" href="/#experience">Experience</a>
+          <a class="py-3 sm:p-4 block hover:text-tertiary" href="/#experience">
+            {{ $t('navigation.experience') }}
+          </a>
         </li>
         <li>
-          <a class="py-3 sm:p-4 block hover:text-tertiary" href="/#work">Work</a>
+          <a class="py-3 sm:p-4 block hover:text-tertiary" href="/#work">
+            {{ $t('navigation.work') }}
+          </a>
         </li>
         <li>
-          <a class="py-3 sm:p-4 block hover:text-tertiary" href="/#testimonials">Testimonials</a>
+          <a class="py-3 sm:p-4 block hover:text-tertiary" href="/#testimonials">
+            {{ $t('navigation.testimonials') }}
+          </a>
         </li>
         <li>
           <a class="py-3 sm:p-4 block text-tertiary font-bold hover:opacity-75" href="/contact">
-            Contact
+            {{ $t('navigation.contact') }}
           </a>
         </li>
       </ul>

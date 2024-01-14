@@ -117,20 +117,20 @@ const handleResetFilter = () => {
     <div class="container mx-auto px-5 md:px-10 lg:px-20 pt-10 lg:pt-20">
       <div class="flex flex-col lg:flex-row lg:justify-between">
         <div class="text-tertiary text-4xl pb-3 lg:pb-5 font-comfortta">
-          <h2>Work</h2>
+          <h2>{{ $t('section.work.title') }}</h2>
         </div>
         <div
           class="flex flex-row flex-wrap md:flex-nowrap text-quaternary gap-4 sm:gap-2 mb-3 mt-0 sm:my-3"
         >
-          <h4 class="relative basis-full md:basis-auto">Filter by:</h4>
+          <h4 class="relative basis-full md:basis-auto">{{ $t('common.filterBy') }}&colon;</h4>
           <a
             class="cursor-pointer flex"
             :class="sortedWorks === filteredWorks && 'text-tertiary'"
             @click="handleResetFilter"
           >
-            All
+            {{ $t('common.all') }}
           </a>
-          <span class="opacity-50">|</span>
+          <span class="opacity-50">&vert;</span>
           <!-- Year Filter -->
           <CustomDropdown
             :items="yearItems"
@@ -138,10 +138,10 @@ const handleResetFilter = () => {
             @select="handleSelect($event, FilterItems.YEAR)"
           >
             <span :class="yearSelected !== ALL_ITEM && 'text-tertiary'">
-              {{ yearSelected !== ALL_ITEM ? yearSelected : 'Year' }}
+              {{ yearSelected !== ALL_ITEM ? yearSelected : $t('section.work.year') }}
             </span>
           </CustomDropdown>
-          <span class="opacity-50">|</span>
+          <span class="opacity-50">&vert;</span>
           <!-- Technology Filter -->
           <CustomDropdown
             :items="technologyItems"
@@ -149,10 +149,12 @@ const handleResetFilter = () => {
             @select="handleSelect($event, FilterItems.TECHNOLOGY)"
           >
             <span :class="technologySelected !== ALL_ITEM && 'text-tertiary'">
-              {{ technologySelected !== ALL_ITEM ? technologySelected : 'Technology' }}
+              {{
+                technologySelected !== ALL_ITEM ? technologySelected : $t('section.work.technology')
+              }}
             </span>
           </CustomDropdown>
-          <span class="opacity-50">|</span>
+          <span class="opacity-50">&vert;</span>
           <!-- Company Filter -->
           <CustomDropdown
             :items="companyItems"
@@ -160,26 +162,26 @@ const handleResetFilter = () => {
             @select="handleSelect($event, FilterItems.COMPANY)"
           >
             <span :class="companySelected !== ALL_ITEM && 'text-tertiary'">
-              {{ companySelected !== ALL_ITEM ? companySelected : 'Company' }}
+              {{ companySelected !== ALL_ITEM ? companySelected : $t('section.work.company') }}
             </span>
           </CustomDropdown>
-          <span class="opacity-50">|</span>
+          <span class="opacity-50">&vert;</span>
           <a
             class="cursor-pointer flex hover:text-tertiary/75"
             :class="isBuiltFromScratch && 'text-tertiary'"
             @click="toggleIsBuiltFromScratch"
           >
             <IconHammerScrew class="my-1 mr-1" width="18" height="18" />
-            Built from Scratch
+            {{ $t('section.work.builtFromScratch') }}
           </a>
-          <span class="opacity-50">|</span>
+          <span class="opacity-50">&vert;</span>
           <a
             class="cursor-pointer flex hover:text-tertiary/75"
             :class="isFreelance && 'text-tertiary'"
             @click="toggleIsFreelance"
           >
             <IconFreelance class="my-1 mr-1" width="18" height="18" />
-            Freelance
+            {{ $t('section.work.freelance') }}
           </a>
         </div>
       </div>
@@ -195,6 +197,7 @@ const handleResetFilter = () => {
               <img
                 :src="work.image || PlaceholderImage"
                 class="rounded-t h-full w-full object-cover object-top opacity-70 group-hover:opacity-100 transform transition duration-300"
+                :alt="work.title"
               />
 
               <div v-if="work.company" class="absolute bottom-0 p-1">
@@ -218,7 +221,7 @@ const handleResetFilter = () => {
                     class="bg-tertiary text-primary hidden mb-0 mr-0 group-hover/freelance-icon:block"
                     size="xs"
                   >
-                    Freelance
+                    {{ $t('section.work.freelance') }}
                   </CustomPill>
                 </div>
                 <!-- Built from Scratch Icon -->
@@ -232,7 +235,7 @@ const handleResetFilter = () => {
                     class="bg-tertiary text-primary hidden mb-0 mr-0 group-hover/scratch-icon:block"
                     size="xs"
                   >
-                    Built from Scratch
+                    {{ $t('section.work.builtFromScratch') }}
                   </CustomPill>
                 </div>
               </div>
@@ -261,7 +264,7 @@ const handleResetFilter = () => {
                   class="text-lg h-8 font-medium group-hover:text-tertiary transform transition duration-300"
                 >
                   {{ work.title }}
-                  <span class="text-xs text-gray-400 leading-6"> — {{ work.year }}</span>
+                  <span class="text-xs text-gray-400 leading-6"> &ndash; {{ work.year }}</span>
                 </h3>
               </div>
               <p class="text-sm h-24 line-clamp-3 mb-2">
@@ -282,12 +285,12 @@ const handleResetFilter = () => {
           <div v-if="!filteredWorks.length" class="col-span-6">
             <div class="m-auto w-fit flex flex-col items-center">
               <IconSearchOff width="100" height="100" />
-              <span>No results found</span>
+              <span>{{ $t('noResultsFound') }}</span>
               <a
                 class="cursor-pointer text-base text-tertiary underline"
                 @click="handleResetFilter"
               >
-                Reset Filter
+                {{ $t('resetFilter') }}
               </a>
             </div>
           </div>
@@ -295,7 +298,7 @@ const handleResetFilter = () => {
       </div>
       <div v-if="filteredWorks.length > DEFAULT_WORK_VIEW" class="w-full flex justify-center mt-10">
         <CustomButton @click="toggleShowMore">
-          {{ `Show ${showMore ? 'Less' : 'More'}` }}
+          {{ $t('common.showMoreOrLess', { value: showMore ? 'Less' : 'More' }) }}
         </CustomButton>
       </div>
     </div>

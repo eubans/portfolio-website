@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "about": "के बारे में",
+    "contact": "संपर्क",
+    "experience": "अनुभव",
+    "testimonials": "प्रशंसापत्र",
+    "work": "काम"
+  },
+  "footer": {
+    "text": "{expertise} की आवश्यकता है? चलो कुछ अद्भुत बनाएं!"
+  },
+  "view": {
+    "contact": {
+      "title": "एक चीज बनाएं",
+      "form": {
+        "firstName": "पहला नाम",
+        "lastName": "उपनाम",
+        "emailAddress": "ईमेल पता",
+        "phoneNumber": "फ़ोन नंबर",
+        "subject": "विषय",
+        "message": "संदेश",
+        "sendIt": "भेजें"
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "के बारे में"
+    },
+    "experience": {
+      "title": "अनुभव",
+      "programmingLanguages": "प्रोग्रामिंग भाषाएँ",
+      "librariesFrameworks": "लाइब्रेरी और फ्रेमवर्क",
+      "toolsPlatforms": "टूल और प्लेटफ़ॉर्म"
+    },
+    "hero": {
+      "introduction": "नमस्ते, मेरा नाम है"
+    },
+    "testimonial": {
+      "title": "लोग क्या कहते हैं"
+    },
+    "work": {
+      "title": "काम",
+      "year": "वर्ष",
+      "technology": "तकनीक",
+      "company": "कंपनी",
+      "builtFromScratch": "शुरू से बनाया गया",
+      "freelance": "फ्रीलांस"
+    }
+  },
+  "common": {
+    "all": "सभी",
+    "and": "और",
+    "builtWith": "के साथ बनाया गया",
+    "copyright": "कॉपीराइट",
+    "deployedWith": "के साथ तैनात किया गया",
+    "filterBy": "द्वारा छानना",
+    "getInTouch": "संपर्क करें",
+    "in": "में",
+    "noResultsFound": "कोई परिणाम नहीं मिला",
+    "resetFilter": "फिल्टर रीसेट करें",
+    "showMoreOrLess": "{value} दिखाएं या छुपाएं",
+    "tailwindCss": "टेलविंड सीएसएस",
+    "vuejs": "व्यू.जेएस"
+  },
+  "alt": {
+    "hero": "हीरो पृष्ठभूमि छवि",
+    "technologyLogo": "तकनीकी लोगो"
+  }
+}

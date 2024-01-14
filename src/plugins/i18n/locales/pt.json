@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "about": "Sobre",
+    "contact": "Contato",
+    "experience": "Experiência",
+    "testimonials": "Depoimentos",
+    "work": "Trabalho"
+  },
+  "footer": {
+    "text": "Precisa de {expertise}? Vamos construir algo incrível juntos!"
+  },
+  "view": {
+    "contact": {
+      "title": "Vamos construir algo",
+      "form": {
+        "firstName": "Nome",
+        "lastName": "Sobrenome",
+        "emailAddress": "Endereço de e-mail",
+        "phoneNumber": "Número de telefone",
+        "subject": "Assunto",
+        "message": "Mensagem",
+        "sendIt": "Enviar"
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "Sobre"
+    },
+    "experience": {
+      "title": "Experiência",
+      "programmingLanguages": "Linguagens de programação",
+      "librariesFrameworks": "Bibliotecas e frameworks",
+      "toolsPlatforms": "Ferramentas e plataformas"
+    },
+    "hero": {
+      "introduction": "Olá, meu nome é"
+    },
+    "testimonial": {
+      "title": "O que as pessoas dizem"
+    },
+    "work": {
+      "title": "Trabalho",
+      "year": "Ano",
+      "technology": "Tecnologia",
+      "company": "Empresa",
+      "builtFromScratch": "Construído do zero",
+      "freelance": "Freelance"
+    }
+  },
+  "common": {
+    "all": "Todos",
+    "and": "e",
+    "builtWith": "Construído com",
+    "copyright": "Direitos autorais",
+    "deployedWith": "implementado com",
+    "filterBy": "Filtrar por",
+    "getInTouch": "Entre em contato",
+    "in": "em",
+    "noResultsFound": "Nenhum resultado encontrado",
+    "resetFilter": "Redefinir filtro",
+    "showMoreOrLess": "Mostrar {value}",
+    "tailwindCss": "Tailwind CSS",
+    "vuejs": "Vue.js"
+  },
+  "alt": {
+    "hero": "Imagem de fundo do herói",
+    "technologyLogo": "Logotipo da tecnologia"
+  }
+}

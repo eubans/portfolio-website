@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "about": "About",
+    "contact": "Contact",
+    "experience": "Experience",
+    "testimonials": "Testimonials",
+    "work": "Work"
+  },
+  "footer": {
+    "text": "Need a {expertise}? Let's build something amazing together!"
+  },
+  "view": {
+    "contact": {
+      "title": "Let's build a thing",
+      "form": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "emailAddress": "Email Address",
+        "phoneNumber": "Phone Number",
+        "subject": "Subject",
+        "message": "Message",
+        "sendIt": "Send it"
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "About"
+    },
+    "experience": {
+      "title": "Experience",
+      "programmingLanguages": "Programming Languages",
+      "librariesFrameworks": "Libraries & Frameworks",
+      "toolsPlatforms": "Tools & Platforms"
+    },
+    "hero": {
+      "introduction": "Hello, my name is"
+    },
+    "testimonial": {
+      "title": "Things people say"
+    },
+    "work": {
+      "title": "Work",
+      "year": "Year",
+      "technology": "Technology",
+      "company": "Company",
+      "builtFromScratch": "Built from Scratch",
+      "freelance": "Freelance"
+    }
+  },
+  "common": {
+    "all": "All",
+    "and": "and",
+    "builtWith": "Built with",
+    "copyright": "Copyright",
+    "deployedWith": "deployed with",
+    "filterBy": "Filter by",
+    "getInTouch": "Get in touch",
+    "in": "in",
+    "noResultsFound": "No results found",
+    "resetFilter": "Reset Filter",
+    "showMoreOrLess": "Show {value}",
+    "tailwindCss": "Tailwind CSS",
+    "vuejs": "Vue.js"
+  },
+  "alt": {
+    "hero": "Hero Background Image",
+    "technologyLogo": "Technology Logo"
+  }
+}

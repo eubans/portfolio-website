@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "about": "గురించి",
+    "contact": "సంప్రదించండి",
+    "experience": "అనుభవం",
+    "testimonials": "అభిప్రాయాలు",
+    "work": "పనులు"
+  },
+  "footer": {
+    "text": "{expertise} అవసరమా? మనం కొనసాగండిగా ఏది నిర్మిస్తామని చెప్పేయండి!"
+  },
+  "view": {
+    "contact": {
+      "title": "ఏదొక నిర్మిస్తామని",
+      "form": {
+        "firstName": "మొదటి పేరు",
+        "lastName": "చివరి పేరు",
+        "emailAddress": "ఇమెయిల్ చిరునామా",
+        "phoneNumber": "ఫోన్ నంబర్",
+        "subject": "సంబంధితమైన",
+        "message": "సందేశం",
+        "sendIt": "పంపండి"
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "గురించి"
+    },
+    "experience": {
+      "title": "అనుభవం",
+      "programmingLanguages": "ప్రోగ్రామింగ్ భాషలు",
+      "librariesFrameworks": "లైబ్రరీలు మరియు ఫ్రేమ్‌వర్క్‌లు",
+      "toolsPlatforms": "సాధనాలు మరియు ప్లాట్‌ఫారమ్‌లు"
+    },
+    "hero": {
+      "introduction": "హలో, నా పేరు"
+    },
+    "testimonial": {
+      "title": "జనాలు ఏమి చెప్పారు"
+    },
+    "work": {
+      "title": "పనులు",
+      "year": "సంవత్సరం",
+      "technology": "సాంకేతికం",
+      "company": "కంపెనీ",
+      "builtFromScratch": "పునఃరచించింది",
+      "freelance": "ఫ్రీలాన్స్"
+    }
+  },
+  "common": {
+    "all": "అన్ని",
+    "and": "మరియు",
+    "builtWith": "తో నిర్మించబడింది",
+    "copyright": "కాపీరైట్",
+    "deployedWith": "తో అమలుపడింది",
+    "filterBy": "ద్వారా శోధించండి",
+    "getInTouch": "సంప్రదించండి",
+    "in": "లో",
+    "noResultsFound": "ఏ ఫలితాలు కనబడలేదు",
+    "resetFilter": "ఫిల్టర్‌ను రీసెట్ చేయండి",
+    "showMoreOrLess": "{value} చూపించు లేదా దిద్దు",
+    "tailwindCss": "టేల్‌విండ్ సిఎస్ఎస్",
+    "vuejs": "వ్యూ.జెఎస్"
+  },
+  "alt": {
+    "hero": "హీరో పృష్ఠపు చిత్రం",
+    "technologyLogo": "సాంకేతిక లోగో"
+  }
+}

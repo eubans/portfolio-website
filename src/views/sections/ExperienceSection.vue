@@ -32,7 +32,7 @@ onMounted(() => {
   <section id="experience" class="bg-primary w-full">
     <div class="container mx-auto px-5 md:px-10 lg:px-20 pt-10 lg:pt-20">
       <div class="text-tertiary text-4xl pb-5 font-comfortta">
-        <h2>Experience</h2>
+        <h2>{{ $t('section.experience.title') }}</h2>
       </div>
       <div class="text-quaternary text-xl">
         <div class="w-full sm:grid sm:grid-cols-6">
@@ -91,7 +91,9 @@ onMounted(() => {
                   </div>
 
                   <div class="mb-5">
-                    <h4 class="text-sm sm:text-base mb-3 font-semibold">Programming Languages</h4>
+                    <h4 class="text-sm sm:text-base mb-3 font-semibold">
+                      {{ $t('section.experience.programmingLanguages') }}
+                    </h4>
                     <div class="flex flex-wrap">
                       <CustomPill
                         v-for="language in tab.languages"
@@ -104,7 +106,9 @@ onMounted(() => {
                   </div>
 
                   <div class="mb-5">
-                    <h4 class="text-sm sm:text-base mb-3 font-semibold">Libraries & Frameworks</h4>
+                    <h4 class="text-sm sm:text-base mb-3 font-semibold">
+                      {{ $t('section.experience.librariesFrameworks') }}
+                    </h4>
                     <div class="flex flex-wrap">
                       <CustomPill
                         v-for="library in tab.libraries"
@@ -117,7 +121,9 @@ onMounted(() => {
                   </div>
 
                   <div>
-                    <h4 class="text-sm sm:text-base mb-3 font-semibold">Tools & Platforms</h4>
+                    <h4 class="text-sm sm:text-base mb-3 font-semibold">
+                      {{ $t('section.experience.programmingLanguages') }}
+                    </h4>
                     <div class="flex flex-wrap">
                       <CustomPill
                         v-for="tools in tab.tools"
@@ -162,7 +168,9 @@ onMounted(() => {
               </div>
 
               <div class="mb-5">
-                <h4 class="text-base mb-3 font-semibold">Programming Languages</h4>
+                <h4 class="text-base mb-3 font-semibold">
+                  {{ $t('section.experience.programmingLanguages') }}
+                </h4>
                 <div class="flex flex-wrap">
                   <CustomPill
                     v-for="language in tab.languages"
@@ -176,7 +184,9 @@ onMounted(() => {
               </div>
 
               <div class="mb-5">
-                <h4 class="text-base mb-3 font-semibold">Libraries & Frameworks</h4>
+                <h4 class="text-base mb-3 font-semibold">
+                  {{ $t('section.experience.librariesFrameworks') }}
+                </h4>
                 <div class="flex flex-wrap">
                   <CustomPill
                     v-for="library in tab.libraries"
@@ -190,7 +200,9 @@ onMounted(() => {
               </div>
 
               <div>
-                <h4 class="text-base mb-3 font-semibold">Tools & Platforms</h4>
+                <h4 class="text-base mb-3 font-semibold">
+                  {{ $t('section.experience.toolsPlatforms') }}
+                </h4>
                 <div class="flex flex-wrap">
                   <CustomPill
                     v-for="tools in tab.tools"

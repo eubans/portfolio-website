@@ -21,10 +21,10 @@ const socials: SocialEntity[] = SocialsData
       >
         <div class="w-full md:w-4/6 lg:w-3/6">
           <h4 class="text-4xl mb-5 sm:mb-10 text-tertiary font-comfortta uppercase font-semibold">
-            Need a {{ EXPERTISE_FULL }}? Let's build something amazing together!
+            {{ $t('footer.text', { expertise: EXPERTISE_FULL }) }}
           </h4>
           <CustomButton class="text-xl py-5 uppercase w-full sm:w-auto">
-            Get in touch
+            {{ $t('common.getInTouch') }}
           </CustomButton>
         </div>
         <div class="w-full sm:w-2/6 mt-5 sm:mt-0">
@@ -39,10 +39,14 @@ const socials: SocialEntity[] = SocialsData
             </li>
             <li>
               <p class="text-quaternary/75">
-                Built with <a class="text-tertiary font-semibold">Vue.js</a> and
-                <a class="text-tertiary font-semibold">Tailwind CSS</a>, deployed with
+                {{ $t('common.builtWith') }}
+                <a class="text-tertiary font-semibold">{{ $t('common.vuejs') }}</a>
+                {{ $t('common.and') }}
+                <a class="text-tertiary font-semibold">{{ $t('common.tailwindCss') }}</a
+                >&comma;
+                {{ $t('common.deployedWith') }}
                 <a class="text-tertiary font-semibold">{{ DEPLOYED_SERVER }}</a
-                >.
+                >&period;
               </p>
             </li>
           </ul>
@@ -50,7 +54,7 @@ const socials: SocialEntity[] = SocialsData
       </div>
       <div class="flex justify-center pb-5">
         <h6>
-          © Copyright {{ COPYRIGHT_YEAR }} —
+          &copy; {{ $t('common.copyright') }} {{ COPYRIGHT_YEAR }} &ndash;
           <a class="text-tertiary font-semibold font-comfortta" href="/">{{ FULL_NAME }}</a>
         </h6>
       </div>

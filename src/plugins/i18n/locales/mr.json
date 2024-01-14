@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "about": "बदल",
+    "contact": "संपर्क साधा",
+    "experience": "अनुभव",
+    "testimonials": "प्रमाणपत्रे",
+    "work": "काम"
+  },
+  "footer": {
+    "text": "{expertise} आवडतं का? चला काही अद्वितीय बनवूया!"
+  },
+  "view": {
+    "contact": {
+      "title": "काही बनवूया",
+      "form": {
+        "firstName": "पहिलं नाव",
+        "lastName": "आडनाव",
+        "emailAddress": "ईमेल पत्ता",
+        "phoneNumber": "फ़ोन नंबर",
+        "subject": "विषय",
+        "message": "संदेश",
+        "sendIt": "पाठवा"
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "बदल"
+    },
+    "experience": {
+      "title": "अनुभव",
+      "programmingLanguages": "प्रोग्रॅमिंग भाषांची यादी",
+      "librariesFrameworks": "लायब्ररी आणि फ्रेमवर्क्स",
+      "toolsPlatforms": "साधने आणि प्लॅटफॉर्म्स"
+    },
+    "hero": {
+      "introduction": "हाय, माझं नाव"
+    },
+    "testimonial": {
+      "title": "लोक कसं म्हणतात"
+    },
+    "work": {
+      "title": "काम",
+      "year": "वर्ष",
+      "technology": "तंत्रज्ञान",
+      "company": "कंपनी",
+      "builtFromScratch": "सुरुवातपासून तयार केलेलं",
+      "freelance": "फ्रीलॅन्स"
+    }
+  },
+  "common": {
+    "all": "सर्व",
+    "and": "आणि",
+    "builtWith": "सहित तयार केलं",
+    "copyright": "कॉपीरायट",
+    "deployedWith": "सहित वापरलं",
+    "filterBy": "फिल्टर करा",
+    "getInTouch": "संपर्क साधा",
+    "in": "मध्ये",
+    "noResultsFound": "कोणतेही परिणाम सापडलेले नाहीत",
+    "resetFilter": "फिल्टर रीसेट करा",
+    "showMoreOrLess": "{value} दाखवा किंवा लपवा",
+    "tailwindCss": "टेलविंड सीएसएस",
+    "vuejs": "व्ह्यू.जेएस"
+  },
+  "alt": {
+    "hero": "हीरो पृष्ठभूमि चित्र",
+    "technologyLogo": "तंत्रज्ञान लोगो"
+  }
+}

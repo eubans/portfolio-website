@@ -7,25 +7,42 @@ import CustomButton from '@/components/CustomButton.vue'
 <template>
   <form class="grid sm:grid-cols-2 gap-4">
     <div>
-      <FormInput type="text" placeholder="First Name *" required block />
+      <FormInput
+        type="text"
+        :placeholder="`${$t('view.contact.form.firstName')} *`"
+        required
+        block
+      />
     </div>
     <div>
-      <FormInput type="text" placeholder="Last Name *" required block />
+      <FormInput
+        type="text"
+        :placeholder="`${$t('view.contact.form.lastName')} *`"
+        required
+        block
+      />
     </div>
     <div>
-      <FormInput type="email" placeholder="Email Address *" required block />
+      <FormInput
+        type="email"
+        :placeholder="`${$t('view.contact.form.emailAddress')} *`"
+        required
+        block
+      />
     </div>
     <div>
-      <FormInput type="tel" placeholder="Phone Number" block />
+      <FormInput type="tel" :placeholder="$t('view.contact.form.phoneNumber')" block />
     </div>
     <div class="sm:col-span-2">
-      <FormInput type="tel" placeholder="Subject *" required block />
+      <FormInput type="tel" :placeholder="`${$t('view.contact.form.subject')} *`" required block />
     </div>
     <div class="sm:col-span-2">
-      <FormTextarea rows="5" placeholder="Message *" required block />
+      <FormTextarea rows="5" :placeholder="`${$t('view.contact.form.message')} *`" required block />
     </div>
     <div class="sm:col-span-2">
-      <CustomButton class="w-full sm:w-52 text-xl py-3 uppercase"> Send it </CustomButton>
+      <CustomButton class="w-full sm:w-52 text-xl py-3 uppercase">
+        {{ $t('view.contact.form.sendIt') }}
+      </CustomButton>
     </div>
   </form>
 </template>

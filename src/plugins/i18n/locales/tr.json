@@ -1,0 +1,70 @@
+{
+  "navigation": {
+    "about": "Hakkında",
+    "contact": "İletişim",
+    "experience": "Deneyim",
+    "testimonials": "Referanslar",
+    "work": "İşler"
+  },
+  "footer": {
+    "text": "{expertise} gerekiyor mu? Birlikte harika bir şeyler inşa edelim!"
+  },
+  "view": {
+    "contact": {
+      "title": "Bir şeyler inşa edelim",
+      "form": {
+        "firstName": "Ad",
+        "lastName": "Soyad",
+        "emailAddress": "E-posta Adresi",
+        "phoneNumber": "Telefon Numarası",
+        "subject": "Konu",
+        "message": "Mesaj",
+        "sendIt": "Gönder"
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "Hakkında"
+    },
+    "experience": {
+      "title": "Deneyim",
+      "programmingLanguages": "Programlama Dilleri",
+      "librariesFrameworks": "Kütüphaneler ve Çerçeveler",
+      "toolsPlatforms": "Araçlar ve Platformlar"
+    },
+    "hero": {
+      "introduction": "Merhaba, benim adım"
+    },
+    "testimonial": {
+      "title": "İnsanların söyledikleri"
+    },
+    "work": {
+      "title": "İşler",
+      "year": "Yıl",
+      "technology": "Teknoloji",
+      "company": "Şirket",
+      "builtFromScratch": "Sıfırdan oluşturulan",
+      "freelance": "Serbest Çalışma"
+    }
+  },
+  "common": {
+    "all": "Tümü",
+    "and": "ve",
+    "builtWith": "Şu ile inşa edildi",
+    "copyright": "Telif Hakkı",
+    "deployedWith": "Şu ile dağıtıldı",
+    "filterBy": "Filtrele",
+    "getInTouch": "İletişim Kur",
+    "in": "içinde",
+    "noResultsFound": "Hiçbir sonuç bulunamadı",
+    "resetFilter": "Filtreyi sıfırla",
+    "showMoreOrLess": "{value} Göster veya Gizle",
+    "tailwindCss": "Tailwind CSS",
+    "vuejs": "Vue.js"
+  },
+  "alt": {
+    "hero": "Kahraman arka plan görüntüsü",
+    "technologyLogo": "Teknoloji Logosu"
+  }
+}

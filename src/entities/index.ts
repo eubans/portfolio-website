@@ -1,3 +1,4 @@
+export * from './AboutEntity'
 export * from './ExperienceEntity'
 export * from './SocialEntity'
 export * from './TestimonialEntity'
