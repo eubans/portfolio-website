@@ -81,12 +81,9 @@ window.addEventListener('click', handleCloseMenu)
           </a>
         </li>
         <li>
-          <RouterLink
-            class="py-3 sm:p-4 block text-tertiary font-bold hover:opacity-75"
-            :to="{ name: 'contact' }"
-          >
+          <a class="py-3 sm:p-4 block text-tertiary font-bold hover:opacity-75" href="/contact">
             {{ $t('navigation.contact') }}
-          </RouterLink>
+          </a>
         </li>
       </ul>
     </div>
