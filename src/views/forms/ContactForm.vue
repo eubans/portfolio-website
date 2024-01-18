@@ -34,6 +34,7 @@ const handleSubmit = () => emit('submit', form.value)
         :placeholder="`${$t('view.contact.form.firstName')} *`"
         required
         block
+        autocomplete="given-name"
       />
     </div>
     <div>
@@ -43,6 +44,7 @@ const handleSubmit = () => emit('submit', form.value)
         :placeholder="`${$t('view.contact.form.lastName')} *`"
         required
         block
+        autocomplete="family-name"
       />
     </div>
     <div>
@@ -52,6 +54,7 @@ const handleSubmit = () => emit('submit', form.value)
         :placeholder="`${$t('view.contact.form.emailAddress')} *`"
         required
         block
+        autocomplete="email"
       />
     </div>
     <div>
@@ -60,6 +63,7 @@ const handleSubmit = () => emit('submit', form.value)
         type="tel"
         :placeholder="$t('view.contact.form.phoneNumber')"
         block
+        autocomplete="tel"
       />
     </div>
     <div class="sm:col-span-2">
@@ -69,6 +73,7 @@ const handleSubmit = () => emit('submit', form.value)
         :placeholder="`${$t('view.contact.form.subject')} *`"
         required
         block
+        autocomplete="off"
       />
     </div>
     <div class="sm:col-span-2">
@@ -78,6 +83,7 @@ const handleSubmit = () => emit('submit', form.value)
         :placeholder="`${$t('view.contact.form.message')} *`"
         required
         block
+        autocomplete="off"
       />
     </div>
     <div class="sm:col-span-2">
