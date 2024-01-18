@@ -18,7 +18,10 @@
         "emailAddress": "Alamat Email",
         "phoneNumber": "Nomor Telepon",
         "subject": "Subjek",
-        "message": "Pesan",
+        "message": "Pesan"
+      },
+      "action": {
+        "sending": "Mengirim...",
         "sendIt": "Kirim"
       }
     }

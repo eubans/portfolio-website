@@ -18,7 +18,10 @@
         "emailAddress": "ইমেল ঠিকানা",
         "phoneNumber": "ফোন নম্বর",
         "subject": "বিষয়",
-        "message": "বার্তা",
+        "message": "বার্তা"
+      },
+      "action": {
+        "sending": "প্রেরণ করা হচ্ছে...",
         "sendIt": "প্রেরণ করুন"
       }
     }

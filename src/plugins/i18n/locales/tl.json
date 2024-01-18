@@ -18,7 +18,10 @@
         "emailAddress": "Email Address",
         "phoneNumber": "Numero ng Telepono",
         "subject": "Paksa",
-        "message": "Mensahe",
+        "message": "Mensahe"
+      },
+      "action": {
+        "sending": "Ipinapadala...",
         "sendIt": "Ipadala"
       }
     }

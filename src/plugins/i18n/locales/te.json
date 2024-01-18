@@ -18,7 +18,10 @@
         "emailAddress": "ఇమెయిల్ చిరునామా",
         "phoneNumber": "ఫోన్ నంబర్",
         "subject": "సంబంధితమైన",
-        "message": "సందేశం",
+        "message": "సందేశం"
+      },
+      "action": {
+        "sending": "పంపిస్తోంది...",
         "sendIt": "పంపండి"
       }
     }

@@ -18,7 +18,10 @@
         "emailAddress": "ईमेल पत्ता",
         "phoneNumber": "फ़ोन नंबर",
         "subject": "विषय",
-        "message": "संदेश",
+        "message": "संदेश"
+      },
+      "action": {
+        "sending": "पाठवत आहे...",
         "sendIt": "पाठवा"
       }
     }

@@ -18,7 +18,10 @@
         "emailAddress": "Адрес электронной почты",
         "phoneNumber": "Номер телефона",
         "subject": "Тема",
-        "message": "Сообщение",
+        "message": "Сообщение"
+      },
+      "action": {
+        "sending": "Отправка...",
         "sendIt": "Отправить"
       }
     }

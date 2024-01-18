@@ -18,7 +18,10 @@
         "emailAddress": "E-Mail-Adresse",
         "phoneNumber": "Telefonnummer",
         "subject": "Betreff",
-        "message": "Nachricht",
+        "message": "Nachricht"
+      },
+      "action": {
+        "sending": "Senden...",
         "sendIt": "Senden"
       }
     }

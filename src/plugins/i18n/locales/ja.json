@@ -18,7 +18,10 @@
         "emailAddress": "メールアドレス",
         "phoneNumber": "電話番号",
         "subject": "件名",
-        "message": "メッセージ",
+        "message": "メッセージ"
+      },
+      "action": {
+        "sending": "送信中...",
         "sendIt": "送信"
       }
     }

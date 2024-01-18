@@ -18,7 +18,10 @@
         "emailAddress": "电子邮件地址",
         "phoneNumber": "电话号码",
         "subject": "主题",
-        "message": "消息",
+        "message": "消息"
+      },
+      "action": {
+        "sending": "发送中...",
         "sendIt": "发送"
       }
     }

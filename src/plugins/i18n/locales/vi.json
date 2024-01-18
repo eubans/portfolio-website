@@ -18,7 +18,10 @@
         "emailAddress": "Địa chỉ Email",
         "phoneNumber": "Số điện thoại",
         "subject": "Chủ đề",
-        "message": "Tin nhắn",
+        "message": "Tin nhắn"
+      },
+      "action": {
+        "sending": "Đang gửi...",
         "sendIt": "Gửi đi"
       }
     }

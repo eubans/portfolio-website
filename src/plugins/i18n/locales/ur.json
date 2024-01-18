@@ -18,7 +18,10 @@
         "emailAddress": "ایمیل ایڈریس",
         "phoneNumber": "فون نمبر",
         "subject": "موضوع",
-        "message": "پیغام",
+        "message": "پیغام"
+      },
+      "action": {
+        "sending": "بھیج رہا ہے...",
         "sendIt": "بھیجیں"
       }
     }

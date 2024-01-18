@@ -18,7 +18,10 @@
         "emailAddress": "E-posta Adresi",
         "phoneNumber": "Telefon Numarası",
         "subject": "Konu",
-        "message": "Mesaj",
+        "message": "Mesaj"
+      },
+      "action": {
+        "sending": "Gönderiliyor...",
         "sendIt": "Gönder"
       }
     }

@@ -18,7 +18,10 @@
         "emailAddress": "عنوان البريد الإلكتروني",
         "phoneNumber": "رقم الهاتف",
         "subject": "الموضوع",
-        "message": "الرسالة",
+        "message": "الرسالة"
+      },
+      "action": {
+        "sending": "جارٍ الإرسال...",
         "sendIt": "إرسال"
       }
     }

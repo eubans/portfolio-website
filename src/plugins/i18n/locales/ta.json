@@ -18,7 +18,10 @@
         "emailAddress": "மின்னஞ்சல் முகவரி",
         "phoneNumber": "தொலைபேசி எண்",
         "subject": "பொருள்",
-        "message": "செய்தி",
+        "message": "செய்தி"
+      },
+      "action": {
+        "sending": "அனுப்பப்படுகின்றது...",
         "sendIt": "அனுப்பு"
       }
     }

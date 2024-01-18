@@ -18,7 +18,10 @@
         "emailAddress": "Endereço de e-mail",
         "phoneNumber": "Número de telefone",
         "subject": "Assunto",
-        "message": "Mensagem",
+        "message": "Mensagem"
+      },
+      "action": {
+        "sending": "Enviando...",
         "sendIt": "Enviar"
       }
     }

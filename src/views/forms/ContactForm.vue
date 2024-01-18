@@ -1,13 +1,35 @@
 <script setup lang="ts">
+import { toRefs } from 'vue'
+import type { ContactFormEntity } from '@/entities'
+
 import FormInput from '@/components/forms/FormInput.vue'
 import FormTextarea from '@/components/forms/FormTextarea.vue'
 import CustomButton from '@/components/CustomButton.vue'
+
+interface ContactFormProps {
+  form: ContactFormEntity
+  loading?: boolean
+}
+
+interface ContactFormEmits {
+  (event: 'submit', value: ContactFormEntity): void
+}
+
+const props = withDefaults(defineProps<ContactFormProps>(), {
+  loading: false
+})
+const emit = defineEmits<ContactFormEmits>()
+
+const { form } = toRefs(props)
+
+const handleSubmit = () => emit('submit', form.value)
 </script>
 
 <template>
-  <form class="grid sm:grid-cols-2 gap-4">
+  <form class="grid sm:grid-cols-2 gap-4" @submit.prevent="handleSubmit">
     <div>
       <FormInput
+        v-model="form.firstName"
         type="text"
         :placeholder="`${$t('view.contact.form.firstName')} *`"
         required
@@ -16,6 +38,7 @@ import CustomButton from '@/components/CustomButton.vue'
     </div>
     <div>
       <FormInput
+        v-model="form.lastName"
         type="text"
         :placeholder="`${$t('view.contact.form.lastName')} *`"
         required
@@ -24,6 +47,7 @@ import CustomButton from '@/components/CustomButton.vue'
     </div>
     <div>
       <FormInput
+        v-model="form.emailAddress"
         type="email"
         :placeholder="`${$t('view.contact.form.emailAddress')} *`"
         required
@@ -31,17 +55,34 @@ import CustomButton from '@/components/CustomButton.vue'
       />
     </div>
     <div>
-      <FormInput type="tel" :placeholder="$t('view.contact.form.phoneNumber')" block />
+      <FormInput
+        v-model="form.phoneNumber"
+        type="tel"
+        :placeholder="$t('view.contact.form.phoneNumber')"
+        block
+      />
     </div>
     <div class="sm:col-span-2">
-      <FormInput type="tel" :placeholder="`${$t('view.contact.form.subject')} *`" required block />
+      <FormInput
+        v-model="form.subject"
+        type="tel"
+        :placeholder="`${$t('view.contact.form.subject')} *`"
+        required
+        block
+      />
     </div>
     <div class="sm:col-span-2">
-      <FormTextarea rows="5" :placeholder="`${$t('view.contact.form.message')} *`" required block />
+      <FormTextarea
+        v-model="form.message"
+        rows="5"
+        :placeholder="`${$t('view.contact.form.message')} *`"
+        required
+        block
+      />
     </div>
     <div class="sm:col-span-2">
-      <CustomButton class="w-full sm:w-52 text-xl py-3 uppercase">
-        {{ $t('view.contact.form.sendIt') }}
+      <CustomButton type="submit" :disabled="loading" class="w-full sm:w-52 text-xl py-3 uppercase">
+        {{ $t(`view.contact.action.${loading ? 'sending' : 'sendIt'}`) }}
       </CustomButton>
     </div>
   </form>
