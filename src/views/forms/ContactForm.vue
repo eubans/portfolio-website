@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import { toRefs } from 'vue'
+import { ref, toRefs, computed } from 'vue'
 import type { ContactFormEntity } from '@/entities'
+import { RecaptchaThemes } from '@/types'
 
 import FormInput from '@/components/forms/FormInput.vue'
 import FormTextarea from '@/components/forms/FormTextarea.vue'
 import CustomButton from '@/components/CustomButton.vue'
+import RecaptchaCheckbox from '@/components/plugins/RecaptchaCheckbox.vue'
 
 interface ContactFormProps {
   form: ContactFormEntity
@@ -22,7 +24,17 @@ const emit = defineEmits<ContactFormEmits>()
 
 const { form } = toRefs(props)
 
+const recaptcha = ref<string>('')
+
+const isSubmitDisabled = computed(() => !recaptcha.value)
+
 const handleSubmit = () => emit('submit', form.value)
+
+const resetRecaptcha = () => (recaptcha.value = '')
+
+defineExpose({
+  resetRecaptcha
+})
 </script>
 
 <template>
@@ -87,7 +99,14 @@ const handleSubmit = () => emit('submit', form.value)
       />
     </div>
     <div class="sm:col-span-2">
-      <CustomButton type="submit" :disabled="loading" class="w-full sm:w-52 text-xl py-3 uppercase">
+      <RecaptchaCheckbox v-model="recaptcha" :theme="RecaptchaThemes.DARK" />
+    </div>
+    <div class="sm:col-span-2">
+      <CustomButton
+        type="submit"
+        :disabled="loading || isSubmitDisabled"
+        class="w-full sm:w-52 text-xl py-3 uppercase"
+      >
         {{ $t(`view.contact.action.${loading ? 'sending' : 'sendIt'}`) }}
       </CustomButton>
     </div>

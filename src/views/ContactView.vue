@@ -8,6 +8,7 @@ import ContactForm from '@/views/forms/ContactForm.vue'
 
 const { loading, submit } = useContactForm()
 
+const ContactFormElement = ref<InstanceType<typeof ContactForm>>()
 const form = ref<ContactFormEntity>({
   firstName: '',
   lastName: '',
@@ -36,6 +37,8 @@ const clearForm = () => {
     subject: '',
     message: ''
   }
+
+  ContactFormElement.value?.resetRecaptcha()
 }
 </script>
 
@@ -45,7 +48,12 @@ const clearForm = () => {
       <h4 class="text-4xl text-tertiary font-comfortta uppercase mb-5 font-semibold">
         {{ $t('view.contact.title') }}
       </h4>
-      <ContactForm :form="form" :loading="loading" @submit="handleSubmit" />
+      <ContactForm
+        ref="ContactFormElement"
+        :form="form"
+        :loading="loading"
+        @submit="handleSubmit"
+      />
     </div>
   </div>
 </template>
