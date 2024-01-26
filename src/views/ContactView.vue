@@ -1,15 +1,16 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref, reactive } from 'vue'
 import type { ContactFormEntity } from '@/entities'
 
-import { useContactForm } from '@/composables'
+import { useContactForm, useBackdropAlert } from '@/composables'
 
 import ContactForm from '@/views/forms/ContactForm.vue'
 
 const { loading, submit } = useContactForm()
+const { showAlert } = useBackdropAlert()
 
 const ContactFormElement = ref<InstanceType<typeof ContactForm>>()
-const form = ref<ContactFormEntity>({
+const form = reactive<ContactFormEntity>({
   firstName: '',
   lastName: '',
   emailAddress: '',
@@ -19,24 +20,26 @@ const form = ref<ContactFormEntity>({
 })
 
 const handleSubmit = async (form: ContactFormEntity) => {
+  const setAlertLocale = (type: string) => `view.contact.alert.${type}`
+
+  showAlert(setAlertLocale('loading'), true)
+
   try {
     await submit(form)
     clearForm()
+    showAlert(setAlertLocale('success'))
   } catch (error) {
-    // @TODO: Create an error popup
-    console.error(`Error: ${(error as Error).message}`)
+    showAlert(setAlertLocale('failed'))
   }
 }
 
 const clearForm = () => {
-  form.value = {
-    firstName: '',
-    lastName: '',
-    emailAddress: '',
-    phoneNumber: '',
-    subject: '',
-    message: ''
-  }
+  form.firstName = ''
+  form.lastName = ''
+  form.emailAddress = ''
+  form.phoneNumber = ''
+  form.subject = ''
+  form.message = ''
 
   ContactFormElement.value?.resetRecaptcha()
 }

@@ -23,6 +23,11 @@
       "action": {
         "sending": "Gönderiliyor...",
         "sendIt": "Gönder"
+      },
+      "alert": {
+        "loading": "Bekleyin! Talebinizi işliyoruz.",
+        "success": "İletişim için teşekkür ederim. En kısa sürede size döneceğim.",
+        "error": "Ups! Bir şeyler ters gitti. Lütfen tekrar deneyin."
       }
     }
   },

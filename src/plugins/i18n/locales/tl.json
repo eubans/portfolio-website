@@ -23,6 +23,11 @@
       "action": {
         "sending": "Ipinapadala...",
         "sendIt": "Ipadala"
+      },
+      "alert": {
+        "loading": "Sandali lamang. Binibigyan namin ng pansin ang iyong katanungan.",
+        "success": "Salamat sa iyong pakikipag-ugnayan. Babalikan kita sa lalong madaling panahon.",
+        "error": "Oops! Mayroong mali. Pakisubukan ulit."
       }
     }
   },

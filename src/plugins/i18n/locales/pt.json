@@ -23,6 +23,11 @@
       "action": {
         "sending": "Enviando...",
         "sendIt": "Enviar"
+      },
+      "alert": {
+        "loading": "Aguarde! Estamos processando sua consulta.",
+        "success": "Obrigado por entrar em contato. Eu retornarei assim que possível.",
+        "error": "Ops! Algo deu errado. Por favor, tente novamente."
       }
     }
   },

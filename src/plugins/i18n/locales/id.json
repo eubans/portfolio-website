@@ -23,6 +23,11 @@
       "action": {
         "sending": "Mengirim...",
         "sendIt": "Kirim"
+      },
+      "alert": {
+        "loading": "Tunggu sebentar! Kami sedang memproses pertanyaan Anda.",
+        "success": "Terima kasih telah menghubungi. Saya akan segera kembali kepada Anda.",
+        "error": "Ups! Ada yang salah. Silakan coba lagi."
       }
     }
   },

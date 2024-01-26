@@ -23,6 +23,11 @@
       "action": {
         "sending": "Sending...",
         "sendIt": "Send it"
+      },
+      "alert": {
+        "loading": "Hang tight! We're processing your inquiry.",
+        "success": "Thank you for reaching out. I'll get back to you as soon as possible.",
+        "error": "Oops! Something went wrong. Please try again."
       }
     }
   },

@@ -23,6 +23,11 @@
       "action": {
         "sending": "Senden...",
         "sendIt": "Senden"
+      },
+      "alert": {
+        "loading": "Warten Sie einen Moment! Wir bearbeiten Ihre Anfrage.",
+        "success": "Vielen Dank für Ihre Kontaktaufnahme. Ich werde mich so schnell wie möglich bei Ihnen melden.",
+        "error": "Hoppla! Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
       }
     }
   },
