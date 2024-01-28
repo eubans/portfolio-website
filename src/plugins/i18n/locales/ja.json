@@ -74,5 +74,11 @@
   "alt": {
     "hero": "ヒーローの背景画像",
     "technologyLogo": "テクノロジーロゴ"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "このページは見つかりませんでした。"
+    }
   }
 }

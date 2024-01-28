@@ -74,5 +74,11 @@
   "alt": {
     "hero": "主页背景图片",
     "technologyLogo": "技术标识"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "找不到该页面。"
+    }
   }
 }

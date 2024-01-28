@@ -74,5 +74,11 @@
   "alt": {
     "hero": "Hình nền anh hùng",
     "technologyLogo": "Logo Công nghệ"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "Trang này không thể được tìm thấy."
+    }
   }
 }

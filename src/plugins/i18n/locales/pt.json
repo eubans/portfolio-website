@@ -74,5 +74,11 @@
   "alt": {
     "hero": "Imagem de fundo do herói",
     "technologyLogo": "Logotipo da tecnologia"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "Esta página não pôde ser encontrada."
+    }
   }
 }

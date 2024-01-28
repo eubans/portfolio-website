@@ -74,5 +74,11 @@
   "alt": {
     "hero": "Larawan ng Latarang Bayani",
     "technologyLogo": "Logo ng Teknolohiya"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "Hindi mahanap ang pahinang ito."
+    }
   }
 }

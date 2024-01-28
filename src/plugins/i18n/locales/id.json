@@ -74,5 +74,11 @@
   "alt": {
     "hero": "Gambar latar belakang pahlawan",
     "technologyLogo": "Logo Teknologi"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "Halaman ini tidak dapat ditemukan."
+    }
   }
 }

@@ -74,5 +74,11 @@
   "alt": {
     "hero": "हीरो पृष्ठभूमि छवि",
     "technologyLogo": "तकनीकी लोगो"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "यह पृष्ठ नहीं मिला।"
+    }
   }
 }

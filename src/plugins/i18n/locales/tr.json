@@ -74,5 +74,11 @@
   "alt": {
     "hero": "Kahraman arka plan görüntüsü",
     "technologyLogo": "Teknoloji Logosu"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "Bu sayfa bulunamadı."
+    }
   }
 }
