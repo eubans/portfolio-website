@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "about": "О нас",
+    "contact": "Контакты",
+    "experience": "Опыт",
+    "testimonials": "Отзывы",
+    "work": "Работы"
+  },
+  "footer": {
+    "text": "Нужна {expertise}? Давайте создадим что-то удивительное вместе!"
+  },
+  "view": {
+    "contact": {
+      "title": "Давайте создадим что-то",
+      "form": {
+        "firstName": "Имя",
+        "lastName": "Фамилия",
+        "emailAddress": "Адрес электронной почты",
+        "phoneNumber": "Номер телефона",
+        "subject": "Тема",
+        "message": "Сообщение"
+      },
+      "action": {
+        "sending": "Отправка...",
+        "sendIt": "Отправить"
+      },
+      "alert": {
+        "loading": "Подождите! Мы обрабатываем ваш запрос.",
+        "success": "Спасибо за обращение. Я свяжусь с вами как можно скорее.",
+        "error": "Упс! Что-то пошло не так. Пожалуйста, попробуйте снова."
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "О нас"
+    },
+    "experience": {
+      "title": "Опыт",
+      "programmingLanguages": "Языки программирования",
+      "librariesFrameworks": "Библиотеки и фреймворки",
+      "toolsPlatforms": "Инструменты и платформы"
+    },
+    "hero": {
+      "introduction": "Привет, меня зовут"
+    },
+    "testimonial": {
+      "title": "Что говорят люди"
+    },
+    "work": {
+      "title": "Работы",
+      "year": "Год",
+      "technology": "Технология",
+      "company": "Компания",
+      "builtFromScratch": "Создано с нуля",
+      "freelance": "Фриланс"
+    }
+  },
+  "common": {
+    "all": "Все",
+    "and": "и",
+    "builtWith": "Создано с использованием",
+    "copyright": "Авторское право",
+    "deployedWith": "развернуто с",
+    "filterBy": "Фильтровать по",
+    "getInTouch": "Связаться",
+    "in": "в",
+    "noResultsFound": "Ничего не найдено",
+    "resetFilter": "Сбросить фильтр",
+    "showMoreOrLess": "Показать {value}",
+    "tailwindCss": "Tailwind CSS",
+    "vuejs": "Vue.js"
+  },
+  "alt": {
+    "hero": "Фоновое изображение героя",
+    "technologyLogo": "Логотип технологии"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "Эта страница не может быть найдена."
+    }
+  }
+}

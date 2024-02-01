@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "about": "À propos",
+    "contact": "Contact",
+    "experience": "Expérience",
+    "testimonials": "Témoignages",
+    "work": "Travail"
+  },
+  "footer": {
+    "text": "Besoin d'un {expertise} ? Construisons quelque chose d'incroyable ensemble !"
+  },
+  "view": {
+    "contact": {
+      "title": "Construisons quelque chose",
+      "form": {
+        "firstName": "Prénom",
+        "lastName": "Nom de famille",
+        "emailAddress": "Adresse e-mail",
+        "phoneNumber": "Numéro de téléphone",
+        "subject": "Sujet",
+        "message": "Message"
+      },
+      "action": {
+        "sending": "Envoi en cours...",
+        "sendIt": "Envoyer"
+      },
+      "alert": {
+        "loading": "Attendez un moment ! Nous traitons votre demande.",
+        "success": "Merci de nous avoir contactés. Je vous répondrai dès que possible.",
+        "error": "Oups ! Quelque chose s'est mal passé. Veuillez réessayer."
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "À propos"
+    },
+    "experience": {
+      "title": "Expérience",
+      "programmingLanguages": "Langages de programmation",
+      "librariesFrameworks": "Bibliothèques et Frameworks",
+      "toolsPlatforms": "Outils et Plates-formes"
+    },
+    "hero": {
+      "introduction": "Bonjour, je m'appelle"
+    },
+    "testimonial": {
+      "title": "Ce que disent les gens"
+    },
+    "work": {
+      "title": "Travail",
+      "year": "Année",
+      "technology": "Technologie",
+      "company": "Entreprise",
+      "builtFromScratch": "Construit de zéro",
+      "freelance": "Indépendant"
+    }
+  },
+  "common": {
+    "all": "Tous",
+    "and": "et",
+    "builtWith": "Construit avec",
+    "copyright": "Droits d'auteur",
+    "deployedWith": "déployé avec",
+    "filterBy": "Filtrer par",
+    "getInTouch": "Contactez-nous",
+    "in": "dans",
+    "noResultsFound": "Aucun résultat trouvé",
+    "resetFilter": "Réinitialiser le filtre",
+    "showMoreOrLess": "Afficher {value}",
+    "tailwindCss": "Tailwind CSS",
+    "vuejs": "Vue.js"
+  },
+  "alt": {
+    "hero": "Image de fond du héros",
+    "technologyLogo": "Logo de technologie"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "Cette page est introuvable."
+    }
+  }
+}

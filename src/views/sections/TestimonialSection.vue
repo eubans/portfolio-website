@@ -23,7 +23,7 @@ const paginationConfig = computed(() => ({
   <section id="testimonials" class="bg-primary w-full">
     <div class="container mx-auto py-10 px-5 md:px-10 lg:p-20">
       <div class="text-tertiary text-4xl pb-5 font-comfortta">
-        <h2>Things people say</h2>
+        <h2>{{ $t('section.testimonial.title') }}</h2>
       </div>
       <div class="text-quaternary text-xl">
         <Swiper
@@ -34,12 +34,8 @@ const paginationConfig = computed(() => ({
           class="border-2 border-tertiary mx-1"
         >
           <SwiperSlide v-for="testimonial in testimonials" :key="`testimonial-${testimonial.id}`">
-            <div
-              class="flex flex-col mx-auto xl:h-96 px-5 sm:px-10 xl:px-48 pt-5 sm:pt-10 xl:pt-32 pb-12"
-            >
-              <p class="md:text-2xl h-40">
-                {{ testimonial.text }}
-              </p>
+            <div class="flex flex-col mx-auto px-5 sm:px-10 xl:px-48 pt-5 sm:pt-10 xl:pt-28 pb-12">
+              <p v-html="testimonial.text" class="md:text-2xl h-60" />
               <div class="mt-12 text-right text-base md:text-xl">
                 <h6 class="font-comfortta">{{ testimonial.name }}</h6>
                 <div>
@@ -47,7 +43,7 @@ const paginationConfig = computed(() => ({
                     {{ testimonial.position }}
                   </span>
                   <span v-if="testimonial.company" class="opacity-75 font-light">
-                    — {{ testimonial.company }}
+                    &ndash; {{ testimonial.company }}
                   </span>
                 </div>
               </div>

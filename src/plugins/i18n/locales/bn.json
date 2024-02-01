@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "about": "সম্পর্কে",
+    "contact": "যোগাযোগ",
+    "experience": "অভিজ্ঞতা",
+    "testimonials": "প্রশংসাপত্র",
+    "work": "কাজ"
+  },
+  "footer": {
+    "text": "{expertise} প্রয়োজন? আসুন একটি অবিশ্বাস্য কিছু তৈরি করি!"
+  },
+  "view": {
+    "contact": {
+      "title": "একটি জিনিস তৈরি করি",
+      "form": {
+        "firstName": "প্রথম নাম",
+        "lastName": "দ্বিতীয় নাম",
+        "emailAddress": "ইমেল ঠিকানা",
+        "phoneNumber": "ফোন নম্বর",
+        "subject": "বিষয়",
+        "message": "বার্তা"
+      },
+      "action": {
+        "sending": "প্রেরণ করা হচ্ছে...",
+        "sendIt": "প্রেরণ করুন"
+      },
+      "alert": {
+        "loading": "ধৈর্য ধরুন! আমরা আপনার অনুসন্ধান প্রক্রিয়ায়।",
+        "success": "যোগাযোগ করার জন্য ধন্যবাদ। আমি সত্যিই আপনার কাছে ফিরব।",
+        "error": "ওহো! কিছু ভুল হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।"
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "সম্পর্কে"
+    },
+    "experience": {
+      "title": "অভিজ্ঞতা",
+      "programmingLanguages": "প্রোগ্রামিং ভাষা",
+      "librariesFrameworks": "লাইব্রেরি এবং ফ্রেমওয়ার্ক",
+      "toolsPlatforms": "টুল এবং প্ল্যাটফর্ম"
+    },
+    "hero": {
+      "introduction": "হ্যালো, আমার নাম"
+    },
+    "testimonial": {
+      "title": "মানুষের কথা"
+    },
+    "work": {
+      "title": "কাজ",
+      "year": "বছর",
+      "technology": "প্রযুক্তি",
+      "company": "কোম্পানি",
+      "builtFromScratch": "শুরু থেকে তৈরি",
+      "freelance": "ফ্রিল্যান্স"
+    }
+  },
+  "common": {
+    "all": "সব",
+    "and": "এবং",
+    "builtWith": "দিয়ে তৈরি",
+    "copyright": "কপিরাইট",
+    "deployedWith": "দিয়ে ব্যবহৃত",
+    "filterBy": "ফিল্টার করুন",
+    "getInTouch": "যোগাযোগ করুন",
+    "in": "ইন",
+    "noResultsFound": "কোন ফলাফল পাওয়া যায়নি",
+    "resetFilter": "ফিল্টার রিসেট করুন",
+    "showMoreOrLess": "{value} দেখুন অথবা লুকান",
+    "tailwindCss": "টেইলউইন্ড সিএসএস",
+    "vuejs": "ভিউ.জেএস"
+  },
+  "alt": {
+    "hero": "হিরো পৃষ্ঠভূমি চিত্র",
+    "technologyLogo": "প্রযুক্তি লোগো"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "এই পৃষ্ঠাটি খুঁজে পাওয়া যায়নি।"
+    }
+  }
+}

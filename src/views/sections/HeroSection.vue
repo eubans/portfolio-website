@@ -53,7 +53,7 @@ onMounted(() => {
     <div
       class="relative w-full sm:ml-32 px-5 sm:px-0 pt-32 sm:pt-0 bg-quaternary sm:bg-transparent"
     >
-      <p class="text-3xl sm:text-5xl mb-2">Hello, my name is</p>
+      <p class="text-3xl sm:text-5xl mb-2">{{ $t('section.hero.introduction') }}</p>
       <h2
         class="text-5xl sm:text-7xl font-comfortta text-secondary w-fit"
         :class="isActive ? 'cursor-code' : 'cursor-pointer'"
@@ -63,20 +63,30 @@ onMounted(() => {
         {{ FULL_NAME }}
       </h2>
       <div class="text-xl sm:text-3xl mt-3 flex">
-        <img v-if="isShowImage" :src="type" class="h-12 mr-2 w-28 transition-all duration-200" />
+        <img
+          v-if="isShowImage"
+          :src="type"
+          class="h-12 mr-2 w-28 transition-all duration-200"
+          :alt="$t('alt.technologyLogo')"
+        />
         <h1 :class="isShowImage && 'pt-2'">
-          <span v-if="!isShowImage">{{ EXPERTISE_FOCUS }}</span> {{ EXPERTISE }} in {{ LOCATION }}
+          <span v-if="!isShowImage">{{ EXPERTISE_FOCUS }}</span>
+          {{ EXPERTISE }} {{ $t('common.in') }} {{ LOCATION }}
         </h1>
       </div>
       <CustomButton class="text-xl py-5 uppercase mt-5 w-full sm:w-auto">
-        Get in touch
+        {{ $t('common.getInTouch') }}
       </CustomButton>
     </div>
     <picture
       class="Hero-image bg-quaternary mix-blend-darken h-[40vh] sm:h-screen sm:w-full relative sm:absolute overflow-hidden -z-10 object-cover object-top sm:object-center"
     >
       <source media="(max-width:640px)" :srcset="HeroImageSM" />
-      <img :src="HeroImage" class="relative sm:absolute xl:relative sm:bottom-0 2xl:bottom-auto" />
+      <img
+        :src="HeroImage"
+        class="relative sm:absolute xl:relative sm:bottom-0 2xl:bottom-auto"
+        :alt="$t('alt.hero')"
+      />
     </picture>
   </section>
 </template>

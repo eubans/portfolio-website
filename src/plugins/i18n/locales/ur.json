@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "about": "کے بارے میں",
+    "contact": "رابطہ",
+    "experience": "تجربہ",
+    "testimonials": "تعریف",
+    "work": "کام"
+  },
+  "footer": {
+    "text": "{expertise} کی ضرورت ہے؟ چلیں کچھ شاندار بناتے ہیں!"
+  },
+  "view": {
+    "contact": {
+      "title": "چلیں کچھ بناتے ہیں",
+      "form": {
+        "firstName": "پہلا نام",
+        "lastName": "آخری نام",
+        "emailAddress": "ایمیل ایڈریس",
+        "phoneNumber": "فون نمبر",
+        "subject": "موضوع",
+        "message": "پیغام"
+      },
+      "action": {
+        "sending": "بھیج رہا ہے...",
+        "sendIt": "بھیجیں"
+      },
+      "alert": {
+        "loading": "رکیے! ہم آپکی درخواست پر عمل کر رہے ہیں۔",
+        "success": "آپکے رابطے کا شکریہ۔ میں جلد ہی آپکو جواب دوں گا۔",
+        "error": "اوہو! کچھ غلط ہو گیا ہے۔ براہ کرم دوبارہ کوشش کریں۔"
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "کے بارے میں"
+    },
+    "experience": {
+      "title": "تجربہ",
+      "programmingLanguages": "پروگرامنگ لینگویجز",
+      "librariesFrameworks": "لائبریریز اور فریم ورکس",
+      "toolsPlatforms": "ٹولز اور پلیٹفارمز"
+    },
+    "hero": {
+      "introduction": "ہیلو، میرا نام ہے"
+    },
+    "testimonial": {
+      "title": "لوگ کیا کہتے ہیں"
+    },
+    "work": {
+      "title": "کام",
+      "year": "سال",
+      "technology": "ٹیکنالوجی",
+      "company": "کمپنی",
+      "builtFromScratch": "سے بنایا گیا",
+      "freelance": "فری لانس"
+    }
+  },
+  "common": {
+    "all": "سب",
+    "and": "اور",
+    "builtWith": "کے ساتھ بنایا گیا",
+    "copyright": "کاپی رائٹ",
+    "deployedWith": "کے ساتھ استعمال ہوا",
+    "filterBy": "فلٹر کریں",
+    "getInTouch": "رابطہ کریں",
+    "in": "میں",
+    "noResultsFound": "کوئی نتائج نہیں ملے",
+    "resetFilter": "فلٹر دوبارہ ترتیب دیں",
+    "showMoreOrLess": "{value} دکھائیں یا چھپائیں",
+    "tailwindCss": "ٹیلونڈ سی ایس ایس",
+    "vuejs": "ویو جی ایس"
+  },
+  "alt": {
+    "hero": "ہیرو پس منظر کی تصویر",
+    "technologyLogo": "ٹیکنالوجی لوگو"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "یہ صفحہ نہیں مل سکا۔"
+    }
+  }
+}

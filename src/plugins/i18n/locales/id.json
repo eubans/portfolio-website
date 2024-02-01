@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "about": "Tentang",
+    "contact": "Kontak",
+    "experience": "Pengalaman",
+    "testimonials": "Testimoni",
+    "work": "Pekerjaan"
+  },
+  "footer": {
+    "text": "Butuh {expertise}? Ayo bangun sesuatu yang menakjubkan bersama!"
+  },
+  "view": {
+    "contact": {
+      "title": "Ayo bangun sesuatu",
+      "form": {
+        "firstName": "Nama Depan",
+        "lastName": "Nama Belakang",
+        "emailAddress": "Alamat Email",
+        "phoneNumber": "Nomor Telepon",
+        "subject": "Subjek",
+        "message": "Pesan"
+      },
+      "action": {
+        "sending": "Mengirim...",
+        "sendIt": "Kirim"
+      },
+      "alert": {
+        "loading": "Tunggu sebentar! Kami sedang memproses pertanyaan Anda.",
+        "success": "Terima kasih telah menghubungi. Saya akan segera kembali kepada Anda.",
+        "error": "Ups! Ada yang salah. Silakan coba lagi."
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "Tentang"
+    },
+    "experience": {
+      "title": "Pengalaman",
+      "programmingLanguages": "Bahasa Pemrograman",
+      "librariesFrameworks": "Pustaka & Kerangka Kerja",
+      "toolsPlatforms": "Alat & Platform"
+    },
+    "hero": {
+      "introduction": "Halo, nama saya"
+    },
+    "testimonial": {
+      "title": "Apa yang dikatakan orang"
+    },
+    "work": {
+      "title": "Pekerjaan",
+      "year": "Tahun",
+      "technology": "Teknologi",
+      "company": "Perusahaan",
+      "builtFromScratch": "Dibangun dari Awal",
+      "freelance": "Pekerja Lepas"
+    }
+  },
+  "common": {
+    "all": "Semua",
+    "and": "dan",
+    "builtWith": "Dibangun dengan",
+    "copyright": "Hak Cipta",
+    "deployedWith": "Diterapkan dengan",
+    "filterBy": "Saring berdasarkan",
+    "getInTouch": "Hubungi Kami",
+    "in": "di",
+    "noResultsFound": "Tidak ada hasil ditemukan",
+    "resetFilter": "Atur Ulang Filter",
+    "showMoreOrLess": "Tampilkan {value}",
+    "tailwindCss": "Tailwind CSS",
+    "vuejs": "Vue.js"
+  },
+  "alt": {
+    "hero": "Gambar latar belakang pahlawan",
+    "technologyLogo": "Logo Teknologi"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "Halaman ini tidak dapat ditemukan."
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "about": "Tungkol sa",
+    "contact": "Makipag-ugnayan",
+    "experience": "Karanasan",
+    "testimonials": "Testimonials",
+    "work": "Gawain"
+  },
+  "footer": {
+    "text": "Kailangan mo ba ng {expertise}? Magtayo tayo ng kahanga-hangang bagay na magkasama!"
+  },
+  "view": {
+    "contact": {
+      "title": "Magtayo tayo ng bagay",
+      "form": {
+        "firstName": "Pangalan",
+        "lastName": "Apelyido",
+        "emailAddress": "Email Address",
+        "phoneNumber": "Numero ng Telepono",
+        "subject": "Paksa",
+        "message": "Mensahe"
+      },
+      "action": {
+        "sending": "Ipinapadala...",
+        "sendIt": "Ipadala"
+      },
+      "alert": {
+        "loading": "Sandali lamang. Binibigyan namin ng pansin ang iyong katanungan.",
+        "success": "Salamat sa iyong pakikipag-ugnayan. Babalikan kita sa lalong madaling panahon.",
+        "error": "Oops! Mayroong mali. Pakisubukan ulit."
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "Tungkol sa"
+    },
+    "experience": {
+      "title": "Karanasan",
+      "programmingLanguages": "Mga Wika sa Programa",
+      "librariesFrameworks": "Mga Aklatan at Frameworks",
+      "toolsPlatforms": "Mga Kasangkapan at Platforma"
+    },
+    "hero": {
+      "introduction": "Kamusta, ako ay si"
+    },
+    "testimonial": {
+      "title": "Ang Sinasabi ng mga Tao"
+    },
+    "work": {
+      "title": "Gawain",
+      "year": "Taon",
+      "technology": "Teknolohiya",
+      "company": "Kumpanya",
+      "builtFromScratch": "Itinayo mula sa Simula",
+      "freelance": "Freelance"
+    }
+  },
+  "common": {
+    "all": "Lahat",
+    "and": "at",
+    "builtWith": "Itinayo gamit ang",
+    "copyright": "Karapatan",
+    "deployedWith": "ideploy gamit ang",
+    "filterBy": "I-filter ayon sa",
+    "getInTouch": "Makipag-ugnayan",
+    "in": "sa",
+    "noResultsFound": "Walang natagpuang resulta",
+    "resetFilter": "I-reset ang Filter",
+    "showMoreOrLess": "Ipakita {value}",
+    "tailwindCss": "Tailwind CSS",
+    "vuejs": "Vue.js"
+  },
+  "alt": {
+    "hero": "Larawan ng Latarang Bayani",
+    "technologyLogo": "Logo ng Teknolohiya"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "Hindi mahanap ang pahinang ito."
+    }
+  }
+}

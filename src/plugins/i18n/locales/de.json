@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "experience": "Erfahrung",
+    "testimonials": "Referenzen",
+    "work": "Arbeit"
+  },
+  "footer": {
+    "text": "Brauchen Sie {expertise}? Lass uns etwas Erstaunliches zusammen aufbauen!"
+  },
+  "view": {
+    "contact": {
+      "title": "Lass uns etwas aufbauen",
+      "form": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "emailAddress": "E-Mail-Adresse",
+        "phoneNumber": "Telefonnummer",
+        "subject": "Betreff",
+        "message": "Nachricht"
+      },
+      "action": {
+        "sending": "Senden...",
+        "sendIt": "Senden"
+      },
+      "alert": {
+        "loading": "Warten Sie einen Moment! Wir bearbeiten Ihre Anfrage.",
+        "success": "Vielen Dank für Ihre Kontaktaufnahme. Ich werde mich so schnell wie möglich bei Ihnen melden.",
+        "error": "Hoppla! Etwas ist schief gelaufen. Bitte versuchen Sie es erneut."
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "Über uns"
+    },
+    "experience": {
+      "title": "Erfahrung",
+      "programmingLanguages": "Programmiersprachen",
+      "librariesFrameworks": "Bibliotheken und Frameworks",
+      "toolsPlatforms": "Werkzeuge und Plattformen"
+    },
+    "hero": {
+      "introduction": "Hallo, ich bin"
+    },
+    "testimonial": {
+      "title": "Was die Leute sagen"
+    },
+    "work": {
+      "title": "Arbeit",
+      "year": "Jahr",
+      "technology": "Technologie",
+      "company": "Unternehmen",
+      "builtFromScratch": "Von Grund auf erstellt",
+      "freelance": "Freiberuflich"
+    }
+  },
+  "common": {
+    "all": "Alle",
+    "and": "und",
+    "builtWith": "Erstellt mit",
+    "copyright": "Urheberrecht",
+    "deployedWith": "Bereitgestellt mit",
+    "filterBy": "Filtern nach",
+    "getInTouch": "Kontaktieren Sie uns",
+    "in": "in",
+    "noResultsFound": "Keine Ergebnisse gefunden",
+    "resetFilter": "Filter zurücksetzen",
+    "showMoreOrLess": "Zeige {value}",
+    "tailwindCss": "Tailwind CSS",
+    "vuejs": "Vue.js"
+  },
+  "alt": {
+    "hero": "Hintergrundbild des Helden",
+    "technologyLogo": "Technologie-Logo"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "Diese Seite konnte nicht gefunden werden."
+    }
+  }
+}

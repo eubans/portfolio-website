@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "about": "เกี่ยวกับเรา",
+    "contact": "ติดต่อ",
+    "experience": "ประสบการณ์",
+    "testimonials": "คำรับรอง",
+    "work": "ผลงาน"
+  },
+  "footer": {
+    "text": "ต้องการ {expertise} หรือไม่? เรามาสร้างบางสิ่งที่น่าทึ่งพร้อมกัน!"
+  },
+  "view": {
+    "contact": {
+      "title": "มาสร้างบางสิ่ง",
+      "form": {
+        "firstName": "ชื่อ",
+        "lastName": "นามสกุล",
+        "emailAddress": "ที่อยู่อีเมล",
+        "phoneNumber": "เบอร์โทรศัพท์",
+        "subject": "หัวข้อ",
+        "message": "ข้อความ"
+      },
+      "action": {
+        "sending": "กำลังส่ง...",
+        "sendIt": "ส่ง"
+      },
+      "alert": {
+        "loading": "โปรดรอ! เรากำลังประมวลผลคำถามของคุณ",
+        "success": "ขอบคุณที่ติดต่อ. ฉันจะติดต่อคุณกลับในเร็ว ๆ นี้",
+        "error": "อุปส์! บางอย่างผิดพลาด. กรุณาลองอีกครั้ง"
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "เกี่ยวกับเรา"
+    },
+    "experience": {
+      "title": "ประสบการณ์",
+      "programmingLanguages": "ภาษาโปรแกรม",
+      "librariesFrameworks": "ห้องสมุดและเฟรมเวิร์ก",
+      "toolsPlatforms": "เครื่องมือและแพลตฟอร์ม"
+    },
+    "hero": {
+      "introduction": "สวัสดี, ฉันชื่อ"
+    },
+    "testimonial": {
+      "title": "คำรับรองจากผู้คน"
+    },
+    "work": {
+      "title": "ผลงาน",
+      "year": "ปี",
+      "technology": "เทคโนโลยี",
+      "company": "บริษัท",
+      "builtFromScratch": "สร้างจากต้น",
+      "freelance": "ฟรีแลนซ์"
+    }
+  },
+  "common": {
+    "all": "ทั้งหมด",
+    "and": "และ",
+    "builtWith": "สร้างด้วย",
+    "copyright": "ลิขสิทธิ์",
+    "deployedWith": "ได้รับการใช้งานด้วย",
+    "filterBy": "กรองโดย",
+    "getInTouch": "ติดต่อเรา",
+    "in": "ใน",
+    "noResultsFound": "ไม่พบผลลัพธ์",
+    "resetFilter": "รีเซ็ตตัวกรอง",
+    "showMoreOrLess": "แสดง {value}",
+    "tailwindCss": "Tailwind CSS",
+    "vuejs": "Vue.js"
+  },
+  "alt": {
+    "hero": "ภาพพื้นหลังฮีโร่",
+    "technologyLogo": "โลโก้เทคโนโลยี"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "ไม่พบหน้านี้"
+    }
+  }
+}

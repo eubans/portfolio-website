@@ -1,6 +1,6 @@
 /**
- * NOTE: This file serve as your template.
- * Please move this to src/stores/data.
+ * NOTE: This file serves as your template.
+ * Please move it to src/stores/data.
  */
 
 import type { ExperienceEntity } from '@/entities'

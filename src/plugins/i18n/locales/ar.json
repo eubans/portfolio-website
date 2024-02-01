@@ -1,0 +1,84 @@
+{
+  "navigation": {
+    "about": "حول",
+    "contact": "اتصل",
+    "experience": "تجربة",
+    "testimonials": "شهادات",
+    "work": "العمل"
+  },
+  "footer": {
+    "text": "هل تحتاج إلى {expertise}؟ دعونا نبني شيئًا رائعًا معًا!"
+  },
+  "view": {
+    "contact": {
+      "title": "لنبني شيئًا",
+      "form": {
+        "firstName": "الاسم الأول",
+        "lastName": "اسم العائلة",
+        "emailAddress": "عنوان البريد الإلكتروني",
+        "phoneNumber": "رقم الهاتف",
+        "subject": "الموضوع",
+        "message": "الرسالة"
+      },
+      "action": {
+        "sending": "جارٍ الإرسال...",
+        "sendIt": "إرسال"
+      },
+      "alert": {
+        "loading": "انتظر قليلا! نحن نعالج استفسارك.",
+        "success": "شكرًا للتواصل. سأعود إليك في أقرب وقت ممكن.",
+        "error": "عفوًا! حدث خطأ ما. يرجى المحاولة مرة أخرى."
+      }
+    }
+  },
+  "section": {
+    "about": {
+      "title": "حول"
+    },
+    "experience": {
+      "title": "تجربة",
+      "programmingLanguages": "لغات البرمجة",
+      "librariesFrameworks": "المكتبات والأطُر",
+      "toolsPlatforms": "الأدوات والمنصات"
+    },
+    "hero": {
+      "introduction": "مرحبًا، اسمي"
+    },
+    "testimonial": {
+      "title": "ما يقوله الناس"
+    },
+    "work": {
+      "title": "العمل",
+      "year": "السنة",
+      "technology": "التكنولوجيا",
+      "company": "الشركة",
+      "builtFromScratch": "بنيت من الصفر",
+      "freelance": "عمل حر"
+    }
+  },
+  "common": {
+    "all": "الكل",
+    "and": "و",
+    "builtWith": "بنيت بواسطة",
+    "copyright": "حقوق النشر",
+    "deployedWith": "نشرت بواسطة",
+    "filterBy": "التصفية حسب",
+    "getInTouch": "تواصل معنا",
+    "in": "في",
+    "noResultsFound": "لم يتم العثور على نتائج",
+    "resetFilter": "إعادة تعيين التصفية",
+    "showMoreOrLess": "عرض {value}",
+    "tailwindCss": "تايلويند سي إس إس",
+    "vuejs": "فيو.جي.إس"
+  },
+  "alt": {
+    "hero": "صورة الخلفية البطل",
+    "technologyLogo": "شعار التكنولوجيا"
+  },
+  "misc": {
+    "notFound": {
+      "title": "404",
+      "subtitle": "هذه الصفحة غير موجودة."
+    }
+  }
+}

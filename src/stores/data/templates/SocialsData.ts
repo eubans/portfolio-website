@@ -1,6 +1,6 @@
 /**
- * NOTE: This file serve as your template.
- * Please move this to src/stores/data.
+ * NOTE: This file serves as your template.
+ * Please move it to src/stores/data.
  */
 
 import type { SocialEntity } from '@/entities'
@@ -39,7 +39,8 @@ export const SocialsData: SocialEntity[] = [
   {
     id: 5,
     name: 'View Resume',
-    link: '#',
+    // NOTE: Replace the file with your resume and make sure to add the file name in .gitignore
+    link: '/sample-resume.pdf',
     icon: IconIdentification
   }
 ]
