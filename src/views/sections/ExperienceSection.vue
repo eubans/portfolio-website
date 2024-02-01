@@ -87,7 +87,7 @@ onMounted(() => {
                   </div>
 
                   <div class="text-sm sm:text-base mt-3 mb-5">
-                    <p>{{ tab.description }}</p>
+                    <p v-html="tab.description"></p>
                   </div>
 
                   <div class="mb-5">
@@ -164,7 +164,7 @@ onMounted(() => {
               </div>
 
               <div class="text-base mt-3 mb-5">
-                <p>{{ tab.description }}</p>
+                <p v-html="tab.description"></p>
               </div>
 
               <div class="mb-5">

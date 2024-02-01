@@ -190,10 +190,10 @@ const handleResetFilter = () => {
           <div
             v-for="(work, workIndex) in filteredWorks"
             :key="`work-${work.id}`"
-            class="group col-span-6 lg:col-span-2 md:col-span-3 sm:col-span-3 h-96 bg-secondary rounded relative transform transition duration-300 hover:-translate-y-2"
+            class="group col-span-6 lg:col-span-2 md:col-span-3 sm:col-span-3 h-[22rem] bg-secondary rounded relative transform transition duration-300 hover:-translate-y-2"
             :class="showMore ? 'block' : workIndex < DEFAULT_WORK_VIEW ? 'block' : 'hidden'"
           >
-            <div class="relative h-40 w-full">
+            <div class="relative h-36 w-full">
               <img
                 :src="work.image || PlaceholderImage"
                 class="rounded-t h-full w-full object-cover object-top opacity-70 group-hover:opacity-100 transform transition duration-300"
@@ -258,7 +258,7 @@ const handleResetFilter = () => {
               </div>
             </div>
 
-            <div class="px-2 py-1 h-56">
+            <div class="px-2 py-1 h-44">
               <div class="flex justify-between">
                 <h3
                   class="text-lg h-8 font-medium group-hover:text-tertiary transform transition duration-300"
@@ -267,7 +267,7 @@ const handleResetFilter = () => {
                   <span class="text-xs text-gray-400 leading-6"> &ndash; {{ work.year }}</span>
                 </h3>
               </div>
-              <p class="text-sm h-24 line-clamp-3 mb-2">
+              <p class="text-sm h-16 line-clamp-3 mb-2">
                 {{ work.description }}
               </p>
               <div class="flex flex-wrap">

@@ -11,7 +11,7 @@ const about: AboutEntity = AboutData
       <div class="text-tertiary text-4xl pb-5 font-comfortta">
         <h2>{{ $t('section.about.title') }}</h2>
       </div>
-      <div class="text-quaternary text-base md:text-xl" v-html="about.html" />
+      <div v-html="about.html" class="text-quaternary text-base md:text-xl" />
     </div>
   </section>
 </template>
