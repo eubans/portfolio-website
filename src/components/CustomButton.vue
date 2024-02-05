@@ -12,7 +12,7 @@ withDefaults(defineProps<CustomButtonProps>(), {
 <template>
   <component
     :is="as"
-    class="bg-tertiary text-quaternary text-lg py-1 px-5 rounded inline-block hover:bg-tertiary/75 disabled:bg-tertiary/50 disabled:cursor-not-allowed"
+    class="bg-tertiary text-quaternary text-lg py-1 px-5 rounded inline-block text-center hover:bg-tertiary/75 disabled:bg-tertiary/50 disabled:cursor-not-allowed"
   >
     <slot />
   </component>
