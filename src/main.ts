@@ -8,6 +8,8 @@ import { VueRecaptchaPlugin } from 'vue-recaptcha/head'
 import App from './App.vue'
 import router from './router'
 
+import { inject } from '@vercel/analytics'
+
 const app = createApp(App)
 
 app.use(createPinia())
@@ -16,5 +18,8 @@ app.use(i18n)
 app.use(VueRecaptchaPlugin, {
   v2SiteKey: import.meta.env.VITE_RECAPTCHA_V2_SITE_KEY
 })
+
+// Vercel Web Analytics
+inject()
 
 app.mount('#app')
