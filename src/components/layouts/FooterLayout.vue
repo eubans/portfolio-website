@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import CustomButton from '@/components/CustomButton.vue'
 
+import { CustomButtonTypes } from '@/types'
 import type { SocialEntity } from '@/entities'
 import { SocialsData } from '@/stores/data'
 
@@ -23,7 +24,11 @@ const socials: SocialEntity[] = SocialsData
           <h4 class="text-4xl mb-5 sm:mb-10 text-tertiary font-comfortta uppercase font-semibold">
             {{ $t('footer.text', { expertise: EXPERTISE_FULL }) }}
           </h4>
-          <CustomButton class="text-xl py-5 uppercase w-full sm:w-auto">
+          <CustomButton
+            :as="CustomButtonTypes.ANCHOR"
+            href="/contact"
+            class="text-xl py-5 uppercase w-full sm:w-auto"
+          >
             {{ $t('common.getInTouch') }}
           </CustomButton>
         </div>

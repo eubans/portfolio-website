@@ -81,7 +81,7 @@ defineExpose({
     <div class="sm:col-span-2">
       <FormInput
         v-model="form.subject"
-        type="tel"
+        type="text"
         :placeholder="`${$t('view.contact.form.subject')} *`"
         required
         block
