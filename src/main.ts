@@ -9,6 +9,7 @@ import App from './App.vue'
 import router from './router'
 
 import { inject } from '@vercel/analytics'
+import { injectSpeedInsights } from '@vercel/speed-insights'
 
 const app = createApp(App)
 
@@ -21,5 +22,8 @@ app.use(VueRecaptchaPlugin, {
 
 // Vercel Web Analytics
 inject()
+
+// Vercel Speed Insights
+injectSpeedInsights()
 
 app.mount('#app')
