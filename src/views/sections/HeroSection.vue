@@ -2,6 +2,8 @@
 import { ref, computed, onMounted } from 'vue'
 import { useIntervalFn } from '@vueuse/core'
 
+import { CustomButtonTypes } from '@/types'
+
 import HeroImage from '@/assets/images/hero1.png'
 import HeroImageSM from '@/assets/images/hero3.png'
 import LaravelImage from '@/assets/images/logos/laravel.png'
@@ -74,7 +76,11 @@ onMounted(() => {
           {{ EXPERTISE }} {{ $t('common.in') }} {{ LOCATION }}
         </h1>
       </div>
-      <CustomButton class="text-xl py-5 uppercase mt-5 w-full sm:w-auto">
+      <CustomButton
+        :as="CustomButtonTypes.ANCHOR"
+        href="/contact"
+        class="text-xl py-5 uppercase mt-5 w-full sm:w-auto"
+      >
         {{ $t('common.getInTouch') }}
       </CustomButton>
     </div>
