@@ -40,7 +40,7 @@ const paginationConfig = computed(() => ({
         >
           <SwiperSlide v-for="testimonial in testimonials" :key="`testimonial-${testimonial.id}`">
             <div class="flex flex-col mx-auto px-5 sm:px-10 xl:px-48 pt-5 sm:pt-10 xl:pt-28 pb-12">
-              <p v-html="testimonial.text" class="md:text-2xl h-60" />
+              <p v-html="testimonial.text" class="md:text-2xl h-64" />
               <div class="mt-12 text-right text-base md:text-xl">
                 <h6 class="font-comfortta">{{ testimonial.name }}</h6>
                 <div>
