@@ -9,11 +9,15 @@ import 'swiper/css/pagination'
 import type { TestimonialEntity } from '@/entities'
 import { TestimonialsData } from '@/stores/data'
 
+const SLIDER_SPEED = 1000
+const SLIDER_DELAY = 7000
 const testimonials: TestimonialEntity[] = TestimonialsData
 
 const sliderModules = computed(() => [Autoplay, Pagination])
+const autoplayConfig = computed(() => ({
+  delay: SLIDER_DELAY
+}))
 const paginationConfig = computed(() => ({
-  clickable: true,
   bulletActiveClass: '!bg-tertiary !opacity-100',
   bulletClass: 'swiper-pagination-bullet !mx-3 !h-3 !w-3'
 }))
@@ -27,10 +31,11 @@ const paginationConfig = computed(() => ({
       </div>
       <div class="text-quaternary text-xl">
         <Swiper
-          autoplay
+          :autoplay="autoplayConfig"
           :pagination="paginationConfig"
           loop
           :modules="sliderModules"
+          :speed="SLIDER_SPEED"
           class="border-2 border-tertiary mx-1"
         >
           <SwiperSlide v-for="testimonial in testimonials" :key="`testimonial-${testimonial.id}`">
