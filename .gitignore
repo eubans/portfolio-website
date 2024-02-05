@@ -33,3 +33,4 @@ src/stores/data/*
 !src/stores/data/templates
 src/assets/images/works/*
 public/resume.pdf
+.vercel
