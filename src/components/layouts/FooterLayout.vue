@@ -46,12 +46,19 @@ const socials: SocialEntity[] = SocialsData
             <li>
               <p class="text-quaternary/75">
                 {{ $t('common.builtWith') }}
-                <a class="text-tertiary font-semibold">{{ $t('common.vuejs') }}</a>
+                <a href="https://vuejs.org/" target="_blank" class="text-tertiary font-semibold">
+                  {{ $t('common.vuejs') }}
+                </a>
                 {{ $t('common.and') }}
-                <a class="text-tertiary font-semibold">{{ $t('common.tailwindCss') }}</a
+                <a
+                  href="https://tailwindcss.com/"
+                  target="_blank"
+                  class="text-tertiary font-semibold"
+                  >{{ $t('common.tailwindCss') }}</a
                 >&comma;
                 {{ $t('common.deployedWith') }}
-                <a class="text-tertiary font-semibold">{{ DEPLOYED_SERVER }}</a
+                <a href="https://vercel.com/" target="_blank" class="text-tertiary font-semibold">
+                  {{ DEPLOYED_SERVER }}</a
                 >&period;
               </p>
             </li>
