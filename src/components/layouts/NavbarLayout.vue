@@ -30,7 +30,7 @@ window.addEventListener('click', handleCloseMenu)
 
 <template>
   <nav
-    class="flex flex-wrap items-center justify-between w-full sm:py-0 px-4 sm:px-10 fixed z-50 transition-all duration-200"
+    class="flex flex-wrap items-center justify-between w-full py-2 sm:py-0 px-4 sm:px-10 fixed z-50 transition-all duration-200"
     :class="navbarClass"
   >
     <div>
