@@ -3,23 +3,20 @@ import { ref, computed } from 'vue'
 import { useRoute } from 'vue-router'
 
 import IconMenu from '../icons/IconMenu.vue'
-import IconCode from '../icons/IconCode.vue'
+
+import LogoLight from '@/assets/logo-light.png'
+import LogoDark from '@/assets/logo-dark.png'
 
 const route = useRoute()
 
-const MAIN_VIEW_NAME = 'main'
 const showMenu = ref<boolean>(false)
 const isScrolled = ref<boolean>(false)
 
-const isMainView = computed(() => route.name === MAIN_VIEW_NAME)
-const navbarClass = computed(() => [
-  isScrolled.value || !isMainView.value || showMenu.value
-    ? 'bg-primary shadow-lg'
-    : 'bg-transparent'
-])
-const navbarItemClass = computed(() => [
-  isScrolled.value || !isMainView.value || showMenu.value ? 'text-quaternary' : 'text-secondary'
-])
+const isMainView = computed(() => route.fullPath === '/')
+const isFilled = computed(() => isScrolled.value || !isMainView.value || showMenu.value)
+const navbarClass = computed(() => [isFilled.value ? 'bg-primary shadow-lg' : 'bg-transparent'])
+const navbarItemClass = computed(() => [isFilled.value ? 'text-quaternary' : 'text-secondary'])
+const logo = computed(() => (isFilled.value ? LogoLight : LogoDark))
 
 const toggleMenu = () => (showMenu.value = !showMenu.value)
 
@@ -37,8 +34,8 @@ window.addEventListener('click', handleCloseMenu)
     :class="navbarClass"
   >
     <div>
-      <a href="/">
-        <IconCode :class="navbarItemClass" width="64" height="64" />
+      <a :href="isMainView ? '#' : '/'">
+        <img :src="logo" class="h-10 p-1 lg:p-0 mr-2 transition-all duration-200" />
       </a>
     </div>
 

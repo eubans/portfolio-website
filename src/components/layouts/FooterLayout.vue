@@ -1,9 +1,14 @@
 <script setup lang="ts">
-import CustomButton from '@/components/CustomButton.vue'
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
 
 import { CustomButtonTypes } from '@/types'
 import type { SocialEntity } from '@/entities'
 import { SocialsData } from '@/stores/data'
+
+import CustomButton from '@/components/CustomButton.vue'
+
+const route = useRoute()
 
 const env = import.meta.env
 const FULL_NAME = env.VITE_FULL_NAME
@@ -12,6 +17,8 @@ const DEPLOYED_SERVER = env.VITE_DEPLOYED_SERVER
 const COPYRIGHT_YEAR = env.VITE_COPYRIGHT_YEAR
 
 const socials: SocialEntity[] = SocialsData
+
+const isMainView = computed(() => route.fullPath === '/')
 </script>
 
 <template>
@@ -68,7 +75,9 @@ const socials: SocialEntity[] = SocialsData
       <div class="flex justify-center pb-5">
         <h6>
           &copy; {{ $t('common.copyright') }} {{ COPYRIGHT_YEAR }} &ndash;
-          <a class="text-tertiary font-semibold font-comfortta" href="/">{{ FULL_NAME }}</a>
+          <a class="text-tertiary font-semibold font-comfortta" :href="isMainView ? '#' : '/'">
+            {{ FULL_NAME }}
+          </a>
         </h6>
       </div>
     </div>
