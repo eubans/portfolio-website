@@ -30,12 +30,12 @@ window.addEventListener('click', handleCloseMenu)
 
 <template>
   <nav
-    class="flex flex-wrap items-center justify-between w-full sm:py-0 px-4 sm:px-10 fixed z-50 transition-all duration-200"
+    class="flex flex-wrap items-center justify-between w-full py-2 sm:py-0 px-4 sm:px-10 fixed z-50 transition-all duration-200"
     :class="navbarClass"
   >
     <div>
       <a :href="isMainView ? '#' : '/'">
-        <img :src="logo" class="h-10 p-2 sm:p-1 lg:p-0 mr-2 transition-all duration-200" />
+        <img :src="logo" class="h-10 p-1 lg:p-0 mr-2 transition-all duration-200" />
       </a>
     </div>
 
